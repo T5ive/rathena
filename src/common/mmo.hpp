@@ -40,12 +40,12 @@
 #endif
 
 #define MAX_MAP_PER_SERVER 1500 /// Maximum amount of maps available on a server
-#define MAX_INVENTORY 100 ///Maximum items in player inventory
+#define MAX_INVENTORY 200 ///Maximum items in player inventory
 /** Max number of characters per account. Note that changing this setting alone is not enough if the client is not hexed to support more characters as well.
 * Max value tested was 265 */
 #ifndef MAX_CHARS
 	#if PACKETVER >= 20180124
-		#define MAX_CHARS 15
+		#define MAX_CHARS 30
 	#elif PACKETVER >= 20100413
 		#define MAX_CHARS 12
 	#else
@@ -62,14 +62,14 @@ typedef uint32 t_itemid;
 #define MAX_ZENY INT_MAX ///Max zeny
 #define MAX_BANK_ZENY SINT32_MAX ///Max zeny in Bank
 #define MAX_FAME 1000000000 ///Max fame points
-#define MAX_CART 100 ///Maximum item in cart
-#define MAX_SKILL 1250 ///Maximum skill can be hold by Player, Homunculus, & Mercenary (skill list) AND skill_db limit
+#define MAX_CART 200 ///Maximum item in cart
+#define MAX_SKILL 5046 ///Maximum skill can be hold by Player, Homunculus, & Mercenary (skill list) AND skill_db limit
 #define DEFAULT_WALK_SPEED 150 ///Default walk speed
 #define MIN_WALK_SPEED 20 ///Min walk speed
 #define MAX_WALK_SPEED 1000 ///Max walk speed
 #define MAX_STORAGE 600 ///Max number of storage slots a player can have
 #define MAX_GUILD_STORAGE 600 ///Max number of storage slots a guild
-#define MAX_PARTY 12 ///Max party member
+#define MAX_PARTY 30 ///Max party member
 #define MAX_GUILD 16+10*6	///Increased max guild members +6 per 1 extension levels [Lupus]
 #define MAX_GUILDPOSITION 20	///Increased max guild positions to accomodate for all members [Valaris] (removed) [PoW]
 #define MAX_GUILDEXPULSION 32 ///Max Guild expulsion
@@ -82,7 +82,7 @@ typedef uint32 t_itemid;
 #define MAX_GUILDLEVEL 50 ///Max Guild level
 #define MAX_GUARDIANS 8	///Local max per castle. If this value is increased, need to add more fields on MySQL `guild_castle` table [Skotlex]
 #define MAX_QUEST_OBJECTIVES 3 ///Max quest objectives for a quest
-#define MAX_PC_BONUS_SCRIPT 50 ///Max bonus script can be fetched from `bonus_script` table on player load [Cydh]
+#define MAX_PC_BONUS_SCRIPT 100 ///Max bonus script can be fetched from `bonus_script` table on player load [Cydh]
 #define MAX_ITEM_RDM_OPT 5	 /// Max item random option [Napster]
 #define DB_NAME_LEN 256 //max len of dbs
 #define MAX_CLAN 500
