@@ -22797,23 +22797,23 @@ Body:
     AegisName: Sunglasses
     Name: Sunglasses
     Type: Armor
+    View: 144
     Buy: 5000
     Weight: 100
     Locations:
       Head_Mid: true
-    View: 12
     Script: |
       bonus2 bResEff,Eff_Blind,500;
   - Id: 2202
     AegisName: Sunglasses_
     Name: Sunglasses
     Type: Armor
+    View: 144
     Buy: 5000
     Weight: 100
     Slots: 1
     Locations:
       Head_Mid: true
-    View: 12
     Script: |
       bonus2 bResEff,Eff_Blind,500;
   - Id: 2203
@@ -23357,11 +23357,11 @@ Body:
     AegisName: One_Eyed_Glass
     Name: Monocle
     Type: Armor
+    View: 179
     Buy: 10000
     Weight: 100
     Locations:
       Head_Mid: true
-    View: 23
   - Id: 2240
     AegisName: Beard
     Name: Beard
@@ -24038,6 +24038,7 @@ Body:
     AegisName: Elven_Ears
     Name: Elven Ears
     Type: Armor
+    View: 177
     Buy: 20
     Weight: 100
     Jobs:
@@ -24047,7 +24048,6 @@ Body:
     Locations:
       Head_Mid: true
     EquipLevelMin: 70
-    View: 73
   - Id: 2287
     AegisName: Pirate_Bandana
     Name: Pirate Bandana
@@ -31481,6 +31481,7 @@ Body:
     AegisName: Elven_Ears_C
     Name: Elven Ears
     Type: Armor
+    View: 177
     Buy: 1
     Defense: 2
     Jobs:
@@ -31490,7 +31491,6 @@ Body:
     Locations:
       Head_Mid: true
     EquipLevelMin: 1
-    View: 73
     Trade:
       Override: 100
       NoDrop: true
@@ -37643,6 +37643,7 @@ Body:
     AegisName: Assassin_Mask
     Name: Assassin Mask
     Type: Armor
+    View: 12
     Buy: 20
     Weight: 100
     Jobs:
@@ -37651,7 +37652,6 @@ Body:
     Locations:
       Head_Low: true
     EquipLevelMin: 70
-    View: 180
   - Id: 5055
     AegisName: Novice_Egg_Cap
     Name: Novice False Eggshell
@@ -37720,13 +37720,13 @@ Body:
     AegisName: Party_Hat
     Name: Party Hat
     Type: Armor
+    View: 23
     Buy: 20
     Weight: 300
     Defense: 4
     Locations:
       Head_Top: true
     Refineable: true
-    View: 144
     Script: |
       bonus bLuk,1;
   - Id: 5061
@@ -38187,6 +38187,7 @@ Body:
     AegisName: Blue_Coif_
     Name: Coif
     Type: Armor
+    View: 176
     Buy: 150000
     Weight: 300
     Defense: 5
@@ -38199,7 +38200,6 @@ Body:
       Head_Top: true
     EquipLevelMin: 65
     Refineable: true
-    View: 177
     Script: |
       bonus bMaxSP,100;
   - Id: 5094
@@ -38226,6 +38226,7 @@ Body:
     AegisName: Orc_Hero_Helm_
     Name: Helmet of Orc Hero
     Type: Armor
+    View: 178
     Buy: 800000
     Weight: 1000
     Defense: 5
@@ -38239,7 +38240,6 @@ Body:
       Head_Top: true
     EquipLevelMin: 55
     Refineable: true
-    View: 179
     Script: |
       bonus bStr,2;
       bonus bVit,1;
@@ -38247,6 +38247,7 @@ Body:
     AegisName: Assassin_Mask_
     Name: Assassin Mask
     Type: Armor
+    View: 12
     Buy: 20
     Weight: 100
     Defense: 1
@@ -38256,16 +38257,15 @@ Body:
     Locations:
       Head_Low: true
     EquipLevelMin: 70
-    View: 180
   - Id: 5097
     AegisName: Cone_Hat_
     Name: Holiday Hat
     Type: Armor
+    View: 23
     Weight: 400
     Locations:
       Head_Top: true
     Refineable: true
-    View: 144
   - Id: 5098
     AegisName: Tiger_Mask
     Name: Tiger Mask
@@ -38390,13 +38390,13 @@ Body:
     AegisName: Cone_Hat_INA
     Name: 2nd Anniversary Hat
     Type: Armor
+    View: 23
     Buy: 20
     Weight: 300
     Defense: 10
     Locations:
       Head_Top: true
     EquipLevelMin: 1
-    View: 144
     Trade:
       Override: 100
       NoDrop: true
@@ -39066,12 +39066,12 @@ Body:
     AegisName: Baseball_Cap
     Name: Baseball Cap
     Type: Armor
+    View: 73
     Weight: 200
     Defense: 5
     Locations:
       Head_Top: true
     Refineable: true
-    View: 216
     Trade:
       Override: 100
       NoDrop: true
@@ -39175,12 +39175,12 @@ Body:
     AegisName: Sunglasses_F
     Name: Father's Sunglasses
     Type: Armor
+    View: 144
     Buy: 20
     Weight: 100
     Defense: 4
     Locations:
       Head_Mid: true
-    View: 12
     Trade:
       Override: 100
       NoDrop: true
@@ -39824,6 +39824,7 @@ Body:
     AegisName: Baseball_Cap_
     Name: Independence Memorial Hat
     Type: Armor
+    View: 73
     Buy: 20
     Weight: 20
     Defense: 5
@@ -39831,7 +39832,6 @@ Body:
     Locations:
       Head_Top: true
     Refineable: true
-    View: 216
   - Id: 5191
     AegisName: Ribbon_Black
     Name: Black Ribbon
@@ -39949,12 +39949,12 @@ Body:
     AegisName: Baseball_Cap_I
     Name: Baseball Cap
     Type: Armor
+    View: 73
     Weight: 200
     Defense: 5
     Locations:
       Head_Top: true
     Refineable: true
-    View: 216
   - Id: 5200
     AegisName: Coppola
     Name: Coppola
@@ -39969,13 +39969,13 @@ Body:
     AegisName: Party_Hat_B
     Name: Party Hat
     Type: Armor
+    View: 23
     Buy: 20
     Weight: 300
     Defense: 4
     Locations:
       Head_Top: true
     Refineable: true
-    View: 144
     Script: |
       bonus bAllStats,3;
   - Id: 5202
@@ -40708,37 +40708,37 @@ Body:
     AegisName: Elven_Blindfold
     Name: Elven Blindfold
     Type: Armor
+    View: 82
     Buy: 20
     Weight: 200
     Defense: 1
     Locations:
       Head_Mid: true
-    View: 288
     Script: |
       bonus2 bResEff,Eff_Blind,10000;
   - Id: 5245
     AegisName: Elven_Sunglasses
     Name: Elven Sunglasses
     Type: Armor
+    View: 144
     Buy: 20
     Weight: 200
     Defense: 1
     Locations:
       Head_Mid: true
-    View: 289
     Script: |
       bonus2 bResEff,Eff_Blind,500;
   - Id: 5246
     AegisName: Angelic_Helm
     Name: Angelic Helm
     Type: Armor
+    View: 38
     Buy: 20
     Weight: 700
     Defense: 7
     Locations:
       Head_Top: true
     Refineable: true
-    View: 290
     Script: |
       bonus bAgi,1;
       bonus bLuk,1;
@@ -40748,13 +40748,13 @@ Body:
     AegisName: Satanic_Helm
     Name: Satanic Helm
     Type: Armor
+    View: 39
     Buy: 20
     Weight: 700
     Defense: 8
     Locations:
       Head_Top: true
     Refineable: true
-    View: 291
     Script: |
       bonus bAgi,1;
       bonus bLuk,1;
@@ -40764,44 +40764,44 @@ Body:
     AegisName: Robotic_Blindfold
     Name: Robotic Blindfold
     Type: Armor
+    View: 177
     Buy: 20
     Weight: 200
     Defense: 1
     Locations:
       Head_Mid: true
-    View: 292
     Script: |
       bonus2 bResEff,Eff_Blind,10000;
   - Id: 5249
     AegisName: Human_Blindfold
     Name: Human Blindfold
     Type: Armor
+    View: 177
     Buy: 20
     Weight: 200
     Defense: 1
     Locations:
       Head_Mid: true
-    View: 293
     Script: |
       bonus2 bResEff,Eff_Blind,10000;
   - Id: 5250
     AegisName: Robotic_Ears
     Name: Robotic Ears
     Type: Armor
+    View: 177
     Buy: 20
     Weight: 100
     Locations:
       Head_Mid: true
-    View: 294
   - Id: 5251
     AegisName: Round_Ears
     Name: Round Ears
     Type: Armor
+    View: 177
     Buy: 20
     Weight: 100
     Locations:
       Head_Mid: true
-    View: 295
   - Id: 5252
     AegisName: Drooping_Nine_Tail
     Name: Drooping Ninetail
@@ -41396,13 +41396,13 @@ Body:
     AegisName: euRO_Baseball_Cap
     Name: Europe Baseball Cap
     Type: Armor
+    View: 73
     Weight: 200
     Defense: 5
     Slots: 1
     Locations:
       Head_Top: true
     Refineable: true
-    View: 216
   - Id: 5283
     AegisName: Chick_Hat
     Name: Chick Hat
@@ -43430,7 +43430,6 @@ Body:
     Type: Armor
     Locations:
       Head_Low: true
-    View: 572
     Trade:
       Override: 100
       NoDrop: true
@@ -43763,11 +43762,11 @@ Body:
     AegisName: Sweet_Candy
     Name: Sweet Candy
     Type: Armor
+    View: 446
     Buy: 20
     Weight: 100
     Locations:
       Head_Low: true
-    View: 414
     Trade:
       Override: 100
       NoDrop: true
@@ -45616,6 +45615,7 @@ Body:
     AegisName: Hawk_Eyes01
     Name: Hawk Eyes
     Type: Armor
+    View: 179
     Buy: 10
     Weight: 1000
     Jobs:
@@ -45624,7 +45624,6 @@ Body:
       All_Upper: true
     Locations:
       Head_Mid: true
-    View: 23
     Script: |
       bonus bDex,1;
       bonus bLongAtkRate,3;
@@ -45632,6 +45631,7 @@ Body:
     AegisName: Hawk_Eyes02
     Name: Hawk Eyes
     Type: Armor
+    View: 179
     Buy: 10
     Weight: 1000
     Jobs:
@@ -45640,13 +45640,13 @@ Body:
       Hunter: true
     Locations:
       Head_Mid: true
-    View: 23
     Script: |
       bonus bDex,1;
   - Id: 5518
     AegisName: L_Magestic_Goat2
     Name: Gigantic Majestic Goat
     Type: Armor
+    View: 180
     Buy: 20
     Weight: 800
     Defense: 10
@@ -45654,7 +45654,6 @@ Body:
       Head_Top: true
     EquipLevelMin: 50
     Refineable: true
-    View: 513
     Script: |
       bonus2 bSubRace,RC_DemiHuman,12;
       bonus2 bSubRace,RC_Player_Human,12;
@@ -46378,11 +46377,11 @@ Body:
     AegisName: Piece_Of_White_Cloth_E
     Name: Piece Of White Cloth
     Type: Armor
+    View: 363
     Defense: 5
     Locations:
       Head_Top: true
     Refineable: true
-    View: 543
     Script: |
       bonus2 bAddClass,Class_All,6;
       bonus bMatkRate,6;
@@ -47977,6 +47976,7 @@ Body:
     AegisName: F_Elven_Ears_C
     Name: F Elven Ears C
     Type: Armor
+    View: 177
     Buy: 1
     Defense: 2
     Jobs:
@@ -47986,7 +47986,6 @@ Body:
     Locations:
       Head_Mid: true
     EquipLevelMin: 1
-    View: 73
     Script: |
       bonus bInt,1;
   - Id: 5651
@@ -48022,6 +48021,7 @@ Body:
     AegisName: Darkness_Helm_J
     Name: Darkness Helm
     Type: Armor
+    View: 379
     Buy: 20
     Weight: 500
     Defense: 3
@@ -48030,7 +48030,6 @@ Body:
       Head_Top: true
     EquipLevelMin: 70
     Refineable: true
-    View: 586
   - Id: 5654
     AegisName: Holy_Marching_Hat_J
     Name: Holy Marching Hat
@@ -48634,6 +48633,7 @@ Body:
     AegisName: Queen_Ant_Diadem
     Name: Queen Ant Diadem
     Type: Armor
+    View: 1911
     Buy: 20
     Weight: 300
     Defense: 1
@@ -48641,7 +48641,6 @@ Body:
       Head_Top: true
     EquipLevelMin: 75
     Refineable: true
-    View: 612
     Script: |
       bonus3 bAutoSpellWhenHit,"MG_SIGHT",1,5;
       bonus2 bSubRace,RC_Insect,5;
@@ -48697,10 +48696,10 @@ Body:
     AegisName: No_Fear_Underware
     Name: No Fear Underwear
     Type: Armor
+    View: 881
     Locations:
       Head_Top: true
     EquipLevelMin: 20
-    View: 30
     Script: |
       bonus bStr,1;
       bonus bInt,1;
@@ -50149,6 +50148,7 @@ Body:
     AegisName: Splash_Hat
     Name: Splash Hat
     Type: Armor
+    View: 349
     Buy: 20
     Weight: 100
     Defense: 3
@@ -50157,13 +50157,13 @@ Body:
       Head_Top: true
     EquipLevelMin: 1
     Refineable: true
-    View: 649
     Script: |
       autobonus "{}",3,180000,BF_WEAPON,"{ sc_start SC_WINDWEAPON,180000,1; specialeffect2 EF_ENHANCE; }";
   - Id: 5771
     AegisName: Family_Hat
     Name: Family Hat
     Type: Armor
+    View: 109
     Buy: 20
     Weight: 100
     Defense: 3
@@ -50172,7 +50172,6 @@ Body:
       Head_Top: true
     EquipLevelMin: 1
     Refineable: true
-    View: 650
     Script: |
       bonus bDex,1;
       bonus bMdef,1;
@@ -50213,6 +50212,7 @@ Body:
     AegisName: Red_Pirate_Hat
     Name: Red Pirate Hat
     Type: Armor
+    View: 1910
     Buy: 3000
     Weight: 500
     Defense: 1
@@ -50220,7 +50220,6 @@ Body:
       Head_Top: true
     EquipLevelMin: 95
     Refineable: true
-    View: 496
     Script: |
       bonus2 bSubRace,RC_DemiHuman,10;
       bonus2 bSubRace,RC_Player_Human,10;
@@ -50817,11 +50816,11 @@ Body:
     AegisName: Boom_Boom_Hat
     Name: Boom Boom Hat
     Type: Armor
+    View: 73
     Weight: 100
     Defense: 6
     Locations:
       Head_Top: true
-    View: 216
     Trade:
       Override: 100
       NoDrop: true
@@ -51256,12 +51255,12 @@ Body:
     AegisName: Woe_Sunglass
     Name: Woe Sunglass
     Type: Armor
+    View: 144
     Buy: 20
     Weight: 10
     Locations:
       Head_Mid: true
     EquipLevelMin: 70
-    View: 12
   - Id: 5838
     AegisName: Woe_Fin_Helm
     Name: Woe Fin Helm
@@ -51286,12 +51285,12 @@ Body:
     AegisName: Woe_Elven_Ears
     Name: Woe Elven Ears
     Type: Armor
+    View: 177
     Buy: 20
     Weight: 10
     Locations:
       Head_Mid: true
     EquipLevelMin: 70
-    View: 73
   - Id: 5841
     AegisName: Shaman_Hat_
     Name: Shaman Hat
@@ -51381,20 +51380,20 @@ Body:
     AegisName: Robin_Eyepatch
     Name: Robin Eyepatch
     Type: Armor
+    View: 883
     Buy: 20
     Locations:
       Head_Mid: true
     EquipLevelMin: 1
-    View: 50
   - Id: 5849
     AegisName: Doctor_Hairband
     Name: Doctor Hairband
     Type: Armor
+    View: 979
     Buy: 20
     Locations:
       Head_Top: true
     EquipLevelMin: 1
-    View: 60
   - Id: 5850
     AegisName: Golden_Savage_Hat
     Name: Golden Savage Hat
@@ -52229,7 +52228,7 @@ Body:
     AegisName: Roundly_Woolly_Hat
     Name: Costume Angel Veil
     Type: Armor
-    View: 1168
+    View: 1379
     Buy: 20
     Weight: 300
     Defense: 10
@@ -69560,6 +69559,7 @@ Body:
     AegisName: Elven_Ears_
     Name: Elven Ears
     Type: Armor
+    View: 177
     Buy: 20
     Weight: 100
     Slots: 1
@@ -69570,7 +69570,6 @@ Body:
     Locations:
       Head_Mid: true
     EquipLevelMin: 70
-    View: 73
   - Id: 18508
     AegisName: Garuda_Hat
     Name: Garuda Hat
@@ -70412,9 +70411,9 @@ Body:
     AegisName: Devil_Helmet
     Name: Devil Helmet
     Type: Armor
+    View: 144
     Locations:
       Head_Mid: true
-    View: 12
     Trade:
       Override: 100
       NoDrop: true
@@ -70443,13 +70442,13 @@ Body:
     AegisName: Fafnir_Skin
     Name: Fafnir Skin
     Type: Armor
+    View: 1074
     Buy: 20
     Weight: 100
     Defense: 3
     Locations:
       Head_Mid: true
     EquipLevelMin: 50
-    View: 152
     Script: |
       bonus bCritical,3;
       bonus bHPrecovRate,-100;
@@ -70457,13 +70456,13 @@ Body:
     AegisName: Fafnir_Mask
     Name: Fafnir Mask
     Type: Armor
+    View: 1585
     Buy: 20
     Weight: 300
     Defense: 2
     Locations:
       Head_Low: true
     EquipLevelMin: 50
-    View: 180
     Script: |
       bonus bCritical,2;
   - Id: 18561
@@ -71277,13 +71276,13 @@ Body:
     AegisName: Falcon_Mask
     Name: Falcon Mask
     Type: Armor
+    View: 480
     Buy: 10
     Weight: 30
     Locations:
       Head_Low: true
       Head_Mid: true
     EquipLevelMin: 50
-    View: 782
     Script: |
       bonus2 bAddEle,Ele_Water,5;
   - Id: 18605
@@ -72166,6 +72165,7 @@ Body:
     AegisName: Trident_Helmet
     Name: Trident Helm
     Type: Armor
+    View: 1913
     Buy: 20
     Weight: 400
     Defense: 3
@@ -72178,7 +72178,6 @@ Body:
       Head_Top: true
     EquipLevelMin: 20
     Refineable: true
-    View: 810
     Script: |
       bonus bStr,2;
   - Id: 18662
@@ -73152,6 +73151,7 @@ Body:
     AegisName: MVP_Basketball
     Name: MVP Basketball
     Type: Armor
+    View: 1914
     Buy: 20
     Weight: 150
     Defense: 6
@@ -73160,7 +73160,6 @@ Body:
       Head_Top: true
     EquipLevelMin: 1
     Refineable: true
-    View: 871
     Script: |
       bonus2 bSubRace,RC_DemiHuman,10;
       bonus2 bSubRace,RC_Player_Human,10;
@@ -73342,11 +73341,11 @@ Body:
     AegisName: C_Will_O_Wisp
     Name: Costume Will O Wisp
     Type: Armor
+    View: 1928
     Buy: 10
     Locations:
       Costume_Head_Top: true
     EquipLevelMin: 1
-    View: 880
     EquipScript: |
       sc_start SC_STRANGELIGHTS,INFINITE_TICK,0;
     UnEquipScript: |
@@ -73355,10 +73354,10 @@ Body:
     AegisName: C_MoonStar_Accessory
     Name: Costume Moon and Stars
     Type: Armor
+    View: 1929
     Buy: 20
     Locations:
       Costume_Head_Mid: true
-    View: 881
     Trade:
       Override: 100
       NoDrop: true
@@ -73378,10 +73377,10 @@ Body:
     AegisName: C_World_Star
     Name: Costume Twilight
     Type: Armor
+    View: 1986
     Buy: 20
     Locations:
       Costume_Head_Mid: true
-    View: 883
     EquipScript: |
       sc_start SC_SUPER_STAR,INFINITE_TICK,0;
     UnEquipScript: |
@@ -73900,6 +73899,7 @@ Body:
     AegisName: Improved_Assassin_Mask
     Name: Advanced Assassin Mask
     Type: Armor
+    View: 12
     Buy: 20
     Weight: 100
     Defense: 1
@@ -73909,7 +73909,6 @@ Body:
     Locations:
       Head_Low: true
     EquipLevelMin: 70
-    View: 180
     Script: |
       bonus bCritical,1;
       bonus bCritAtkRate,1;
@@ -74930,6 +74929,7 @@ Body:
     AegisName: Red_Flower_Hat
     Name: Red Flower Hat
     Type: Armor
+    View: 977
     Buy: 10
     Weight: 200
     Defense: 10
@@ -74938,14 +74938,13 @@ Body:
       Head_Top: true
     EquipLevelMin: 50
     Refineable: true
-    View: 1033
     Script: |
       bonus bDex,5;
       bonus2 bSubDefEle,Ele_Earth,3;
       bonus2 bSubRace,RC_DemiHuman,10;
       bonus2 bSubRace,RC_Player_Human,10;
       if (getrefine() >= 12) {
-         bonus bShortWeaponDamageReturn,5;
+        bonus bShortWeaponDamageReturn,5;
       }
   - Id: 18861
     AegisName: Zaha_Doll_Hat_J
@@ -75127,13 +75126,13 @@ Body:
     AegisName: One_Eyed_Glass_
     Name: Cyclops Glasses
     Type: Armor
+    View: 179
     Buy: 10
     Weight: 100
     Slots: 1
     Locations:
       Head_Mid: true
     EquipLevelMin: 1
-    View: 23
   - Id: 18877
     AegisName: Baron_Evil_Eye
     Name: Baron's Evil Eye
@@ -78897,6 +78896,7 @@ Body:
     AegisName: Nurse_Cap_IL
     Name: Illusion Nurse Cap
     Type: Armor
+    View: 980
     Buy: 20
     Weight: 100
     Defense: 4
@@ -78909,7 +78909,6 @@ Body:
       Head_Top: true
     EquipLevelMin: 99
     Refineable: true
-    View: 64
     Script: |
       .@r = getrefine();
       bonus bInt,(1+(.@r/2));
@@ -78918,6 +78917,7 @@ Body:
     AegisName: Apple_Of_Archer_IL
     Name: Illusion Apple of Archer
     Type: Armor
+    View: 1060
     Buy: 20
     Weight: 200
     Defense: 1
@@ -78930,7 +78930,6 @@ Body:
       Head_Top: true
     EquipLevelMin: 99
     Refineable: true
-    View: 72
     Script: |
       bonus bDex,(3+(getrefine()/2));
   - Id: 19211
@@ -78998,6 +78997,7 @@ Body:
     AegisName: Cap_IL
     Name: Illusion Cap
     Type: Armor
+    View: 880
     Weight: 400
     Defense: 15
     Slots: 1
@@ -79017,7 +79017,6 @@ Body:
       Head_Top: true
     EquipLevelMin: 120
     Refineable: true
-    View: 14
     Script: |
       bonus2 bAddClass,Class_All,1;
       bonus bBaseAtk,(2*getrefine());
@@ -79143,12 +79142,12 @@ Body:
     AegisName: Illusion_Fancy_Flower
     Name: Illusion Fancy Flower
     Type: Armor
+    View: 835
     Weight: 100
     Slots: 1
     Locations:
       Head_Top: true
     EquipLevelMin: 120
-    View: 4
     Script: |
       bonus bMatkRate,1;
       bonus bMatk,(2*getrefine());
@@ -79871,6 +79870,7 @@ Body:
     AegisName: Illusion_Hot_blooded_Headband
     Name: Illusion Hot-blooded Headband
     Type: Armor
+    View: 1459
     Weight: 100
     Defense: 3
     Slots: 1
@@ -79882,20 +79882,19 @@ Body:
       Head_Top: true
     EquipLevelMin: 120
     Refineable: true
-    View: 154
     Script: |
       .@r = getrefine();
       bonus bStr,2;
       bonus bBaseAtk,(10*(.@r/2));
       if (.@r >= 7) {
-         bonus2 bAddEle,Ele_Water,10;
-         bonus2 bAddEle,Ele_Wind,10;
-         bonus2 bAddEle,Ele_Earth,10;
-         bonus2 bAddEle,Ele_Neutral,10;
-         if (.@r >= 9) {
-            bonus2 bAddSize,Size_Small,15;
-            bonus2 bAddSize,Size_Large,15;
-         }
+        bonus2 bAddEle,Ele_Water,10;
+        bonus2 bAddEle,Ele_Wind,10;
+        bonus2 bAddEle,Ele_Earth,10;
+        bonus2 bAddEle,Ele_Neutral,10;
+        if (.@r >= 9) {
+          bonus2 bAddSize,Size_Small,15;
+          bonus2 bAddSize,Size_Large,15;
+        }
       }
   - Id: 19364
     AegisName: Engineer_Cap_K
@@ -79929,6 +79928,7 @@ Body:
     AegisName: Illusion_Goibne_Helm
     Name: Illusion Goibne Helm
     Type: Armor
+    View: 1829
     Weight: 1000
     Defense: 25
     Slots: 1
@@ -79940,15 +79940,14 @@ Body:
       Head_Top: true
     EquipLevelMin: 130
     Refineable: true
-    View: 258
     Script: |
       .@r = getrefine();
       .@vit = 3;
       if (.@r >= 7) {
-         .@vit += 5;
-         if (.@r >= 9) {
-            bonus bDelayrate,-12;
-         }
+        .@vit += 5;
+        if (.@r >= 9) {
+          bonus bDelayrate,-12;
+        }
       }
       bonus bVit,.@vit;
       bonus bMdef,3;
@@ -80217,6 +80216,7 @@ Body:
     AegisName: Black_Feather
     Name: Black Feather Hat
     Type: Armor
+    View: 1794
     Buy: 20
     Weight: 1000
     Defense: 18
@@ -80224,7 +80224,6 @@ Body:
       Head_Top: true
     EquipLevelMin: 100
     Refineable: true
-    View: 731
     Script: |
       .@r = getrefine();
       bonus bSPGainValue,50;
@@ -80233,22 +80232,18 @@ Body:
       bonus bMdef,15;
       bonus bDex,10;
       bonus2 bSkillAtk,"SC_FEINTBOMB",10;
-      if (getskilllv("SC_INVISIBILITY") >= 5)
-         bonus2 bAddClass,Class_Boss,50;
-      if (getskilllv("SC_MAELSTROM") >= 3)
-         skill "TK_JUMPKICK",7;
-      if (getskilllv("SC_REPRODUCE") >= 10)
-         bonus bUseSPrate,-30;
+      if (getskilllv("SC_INVISIBILITY") >= 5) bonus2 bAddClass,Class_Boss,50;
+      if (getskilllv("SC_MAELSTROM") >= 3) skill "TK_JUMPKICK",7;
+      if (getskilllv("SC_REPRODUCE") >= 10) bonus bUseSPrate,-30;
       if (.@r>=7) {
-         bonus2 bSkillAtk,"SC_FEINTBOMB",15;
-         bonus bHit,30;
+        bonus2 bSkillAtk,"SC_FEINTBOMB",15;
+        bonus bHit,30;
       }
       if (.@r>=9) {
-         bonus2 bSkillAtk,"SC_FEINTBOMB",25;
-         bonus bHit,20;
+        bonus2 bSkillAtk,"SC_FEINTBOMB",25;
+        bonus bHit,20;
       }
-      if (.@r>=10)
-         bonus bIgnoreDefRace,RC_All;
+      if (.@r>=10) bonus bIgnoreDefRace,RC_All;
   - Id: 19415
     AegisName: White_Bird_Rose
     Name: White Bird Rose Decoration
@@ -80322,6 +80317,7 @@ Body:
     AegisName: Illusion_Morpheus's_Hood
     Name: Illusion Morpheus's Hood
     Type: Armor
+    View: 1665
     Buy: 20
     Weight: 200
     Defense: 15
@@ -80330,7 +80326,6 @@ Body:
       Head_Top: true
     EquipLevelMin: 130
     Refineable: true
-    View: 256
     Script: |
       .@r = getrefine();
       bonus bInt,10;
@@ -80338,10 +80333,10 @@ Body:
       bonus bMaxSPrate,20;
       bonus bVariableCastrate,-(3*(.@r/2));
       if (.@r >= 7) {
-         bonus bMatk,30;
-         if (.@r >= 9) {
-            bonus bNoCastCancel;
-         }
+        bonus bMatk,30;
+        if (.@r >= 9) {
+          bonus bNoCastCancel;
+        }
       }
   - Id: 19433
     AegisName: C_Resonate_Taego
@@ -81214,9 +81209,9 @@ Body:
     AegisName: T_Sunglasses
     Name: T Sunglasses
     Type: Armor
+    View: 144
     Locations:
       Costume_Head_Mid: true
-    View: 12
   - Id: 19505
     AegisName: T_Cigarette
     Name: T Cigarette
@@ -81248,6 +81243,7 @@ Body:
     AegisName: T_Gemmed_Sallet
     Name: T Gemmed Sallet
     Type: Armor
+    View: 216
     Locations:
       Costume_Head_Top: true
     Script: |
@@ -81804,12 +81800,12 @@ Body:
     AegisName: C_Elven_Ears
     Name: Costume Elven Ears
     Type: Armor
+    View: 177
     Buy: 20
     Weight: 100
     Locations:
       Costume_Head_Mid: true
     EquipLevelMin: 100
-    View: 73
     Script: |
       bonus bUnbreakableHelm;
   - Id: 19552
@@ -81828,12 +81824,12 @@ Body:
     AegisName: C_Assassin_Mask_
     Name: Costume Assassin Mask
     Type: Armor
+    View: 12
     Buy: 20
     Weight: 100
     Locations:
       Costume_Head_Low: true
     EquipLevelMin: 100
-    View: 180
     Script: |
       bonus bUnbreakableHelm;
   - Id: 19554
@@ -82363,6 +82359,7 @@ Body:
     AegisName: C_Invisible_Cap
     Name: Costume Invisible Cap
     Type: Armor
+    View: 295
     Locations:
       Costume_Head_Top: true
     EquipLevelMin: 1
@@ -82370,6 +82367,7 @@ Body:
     AegisName: C_Invisible_Sunglasses
     Name: Costume Invisible Sunglasses
     Type: Armor
+    View: 513
     Locations:
       Costume_Head_Mid: true
     EquipLevelMin: 1
@@ -82377,6 +82375,7 @@ Body:
     AegisName: C_Invisible_Mask
     Name: Costume Invisible Flu Mask
     Type: Armor
+    View: 543
     Locations:
       Costume_Head_Low: true
     EquipLevelMin: 1
@@ -82850,11 +82849,11 @@ Body:
     AegisName: C_Magician_Hat
     Name: Costume Magician Hat
     Type: Armor
+    View: 1061
     Buy: 20
     Locations:
       Costume_Head_Top: true
     EquipLevelMin: 1
-    View: 130
   - Id: 19663
     AegisName: Wishing_Sky_Lantern
     Name: Costume Wish Lamp
@@ -82867,10 +82866,10 @@ Body:
     AegisName: C_Campus_Festival
     Name: Costume Campus Festival
     Type: Armor
+    View: 1912
     Locations:
       Costume_Head_Top: true
     EquipLevelMin: 1
-    View: 721
   - Id: 19665
     AegisName: C_Poring_Cake_Hat
     Name: Costume Poring Cake Hat
@@ -82911,10 +82910,10 @@ Body:
     AegisName: C_Reginleif_Hairband_
     Name: Costume Reginleif Hairband
     Type: Armor
+    View: 468
     Locations:
       Costume_Head_Mid: true
     EquipLevelMin: 1
-    View: 214
   - Id: 19670
     AegisName: C_Southern_Cross
     Name: Costume Southern Cross
@@ -83229,11 +83228,11 @@ Body:
     AegisName: C_Darkness_Helm
     Name: Costume Darkness Helm
     Type: Armor
+    View: 379
     Buy: 10
     Locations:
       Costume_Head_Top: true
     EquipLevelMin: 1
-    View: 586
   - Id: 19722
     AegisName: C_Black_Glasses
     Name: Costume Black Glasses
@@ -84216,11 +84215,11 @@ Body:
     AegisName: C_Sunglasses
     Name: Costume Sunglasses
     Type: Armor
+    View: 144
     Buy: 10
     Locations:
       Costume_Head_Mid: true
     EquipLevelMin: 1
-    View: 12
   - Id: 19831
     AegisName: C_Filir_Hat
     Name: Costume Filir Hat
@@ -84252,11 +84251,11 @@ Body:
     AegisName: C_Baseball_Cap
     Name: Costume Baseball Cap
     Type: Armor
+    View: 73
     Buy: 20
     Locations:
       Costume_Head_Top: true
     EquipLevelMin: 1
-    View: 216
   - Id: 19835
     AegisName: C_Lif_Doll_Hat
     Name: Costume Lif Doll Hat
@@ -84448,11 +84447,11 @@ Body:
     AegisName: C_Iceflake_Hat
     Name: Costume Snow Cone Hat
     Type: Armor
+    View: 2025
     Buy: 10
     Locations:
       Costume_Head_Top: true
     EquipLevelMin: 1
-    View: 1080
     Script: |
       bonus2 bAddEle,Ele_Fire,5;
       bonus2 bMagicAddEle,Ele_Fire,5;
@@ -84545,10 +84544,10 @@ Body:
     AegisName: C_Music_Decoration
     Name: Costume Decoration of Music
     Type: Armor
+    View: 2022
     Buy: 20
     Locations:
       Costume_Head_Mid: true
-    View: 1074
     Trade:
       Override: 100
       NoDrop: true
@@ -84646,11 +84645,11 @@ Body:
     AegisName: C_One_Eyed_Glass
     Name: Costume Cyclops Glasses
     Type: Armor
+    View: 179
     Buy: 10
     Locations:
       Costume_Head_Mid: true
     EquipLevelMin: 1
-    View: 23
   - Id: 19888
     AegisName: C_Glasses
     Name: Costume Glasses
@@ -84783,10 +84782,10 @@ Body:
     AegisName: C_One_Eyed_Glasses
     Name: Costume Monocle
     Type: Armor
+    View: 179
     Locations:
       Costume_Head_Mid: true
     EquipLevelMin: 1
-    View: 807
   - Id: 19928
     AegisName: C_Gothic_Heart_Wing
     Name: Costume Gothic Heart Wing
@@ -84894,10 +84893,10 @@ Body:
     AegisName: C_RWC2013_Japan_Hat
     Name: Costume RWC2013 Japan Hat
     Type: Armor
+    View: 2026
     Locations:
       Costume_Head_Top: true
     EquipLevelMin: 1
-    View: 1136
   - Id: 19951
     AegisName: C_Solo_Play_Box2
     Name: Costume Cardboard Box
@@ -85704,10 +85703,10 @@ Body:
     AegisName: C_Alphonse_Helmet
     Name: Costume Alphonse Helmet
     Type: Armor
+    View: 1207
     Buy: 10
     Locations:
       Costume_Head_Top: true
-    View: 1214
   - Id: 20039
     AegisName: C_Butterfly_Wing_Ear_J
     Name: Costume Butterfly Wing Ears
@@ -85906,6 +85905,7 @@ Body:
     AegisName: C_Angel_Stair
     Name: Costume Angel Stair
     Type: Armor
+    View: 586
     Locations:
       Costume_Head_Top: true
     EquipLevelMin: 1
@@ -86679,10 +86679,10 @@ Body:
     AegisName: C_Candy_Cane_In_Mouth
     Name: Costume Candy Cane In Mouth
     Type: Armor
+    View: 446
     Locations:
       Costume_Head_Low: true
     EquipLevelMin: 1
-    View: 665
   - Id: 20144
     AegisName: C_Ancient_Elven_Ear
     Name: Costume Ancient Elven Ear
@@ -87044,10 +87044,10 @@ Body:
     AegisName: C_Party_Hat
     Name: Costume Party Hat
     Type: Armor
+    View: 23
     Locations:
       Costume_Head_Top: true
     EquipLevelMin: 1
-    View: 144
   - Id: 20185
     AegisName: C_Fashionable_Glasses
     Name: Costume Fashionable Glasses
@@ -87214,10 +87214,10 @@ Body:
     AegisName: C_Fancy_Flower
     Name: Costume Fancy Flower
     Type: Armor
+    View: 289
     Locations:
       Costume_Head_Top: true
     EquipLevelMin: 1
-    View: 4
   - Id: 20206
     AegisName: C_Chicken_Hat
     Name: Costume Chicken Hat
@@ -87336,10 +87336,10 @@ Body:
     AegisName: C_Rideword_Hat
     Name: Costume Rideword Hat
     Type: Armor
+    View: 262
     Locations:
       Costume_Head_Top: true
     EquipLevelMin: 1
-    View: 890
   - Id: 20217
     AegisName: C_Arabian_Veil
     Name: Costume Arabian Veil
@@ -87513,10 +87513,10 @@ Body:
     AegisName: C_Hellomother_Hat
     Name: Costume Arc Angeling Hat
     Type: Armor
+    View: 341
     Locations:
       Costume_Head_Top: true
     EquipLevelMin: 1
-    View: 241
   - Id: 20237
     AegisName: C_Pink_Fur_Hat
     Name: Costume Pink Beanie
@@ -87545,6 +87545,7 @@ Body:
     AegisName: C_Gift_Of_Snow
     Name: Costume Gift of Snow
     Type: Armor
+    View: 612
     Locations:
       Costume_Head_Low: true
     EquipLevelMin: 1
@@ -88162,10 +88163,10 @@ Body:
     AegisName: C_Sparkling_Sound
     Name: Costume Sparkling Sound
     Type: Armor
+    View: 2022
     Locations:
       Costume_Head_Low: true
     EquipLevelMin: 1
-    View: 1074
     EquipScript: |
       sc_start SC_DECORATION_OF_MUSIC,INFINITE_TICK,0;
     UnEquipScript: |
@@ -89001,6 +89002,7 @@ Body:
     AegisName: C_New_Year_Shine
     Name: Costume New Year Shine
     Type: Armor
+    View: 833
     Locations:
       Costume_Head_Mid: true
     EquipLevelMin: 1
@@ -89307,10 +89309,10 @@ Body:
     AegisName: C_Unidentified_Flying_Poring
     Name: Costume Unidentified Flying Poring
     Type: Armor
+    View: 1478
     Locations:
       Costume_Head_Top: true
     EquipLevelMin: 1
-    View: 1017
   - Id: 20493
     AegisName: C_Wing_Headphone
     Name: Costume Wing Headphone
@@ -89488,6 +89490,7 @@ Body:
     AegisName: C_Blessings_Of_Soul
     Name: Costume Blessings Of Soul
     Type: Armor
+    View: 834
     Locations:
       Costume_Head_Low: true
     EquipLevelMin: 1
@@ -114906,10 +114909,10 @@ Body:
     AegisName: C_Pirates_Hood
     Name: Costume Pirates Hood
     Type: Armor
+    View: 74
     Locations:
       Costume_Head_Top: true
     EquipLevelMin: 1
-    View: 592
   - Id: 31035
     AegisName: C_Bankruptcy_Of_Heart
     Name: Costume Bankruptcy of Heart
@@ -115096,12 +115099,12 @@ Body:
     AegisName: C_Furious_Wave
     Name: Costume Furious Wave
     Type: Armor
+    View: 1500
     Locations:
       Costume_Head_Mid: true
     EquipLevelMin: 1
     Script: |
       hateffect(HAT_EF_DOUBLEGUMGANG,true);
-      /* Need to confirm this */
     UnEquipScript: |
       hateffect(HAT_EF_DOUBLEGUMGANG,false);
   - Id: 31057
@@ -116146,18 +116149,18 @@ Body:
     AegisName: C_Whikebain_Ears_Gold
     Name: Vibrant Cat Ears
     Type: Armor
+    View: 2027
     Locations:
       Costume_Head_Top: true
     EquipLevelMin: 1
-    View: 1588
   - Id: 31192
     AegisName: C_Bluecat_Ear
     Name: Blue Cat Ears
     Type: Armor
+    View: 2028
     Locations:
       Costume_Head_Top: true
     EquipLevelMin: 1
-    View: 1589
   - Id: 31193
     AegisName: C_Tare_Ahat
     Name: Costume Drooping Ahat
@@ -116278,11 +116281,11 @@ Body:
     AegisName: C_Dokkebi_Mask
     Name: C Dokkebi Mask
     Type: Armor
+    View: 1572
     Locations:
       Costume_Head_Mid: true
       Costume_Head_Low: true
     EquipLevelMin: 1
-    View: 689
   - Id: 31208
     AegisName: C_Straight_Long_YL
     Name: C Straight_Long Yellow
@@ -116741,10 +116744,10 @@ Body:
     AegisName: C_Wings_of_Protector_Lower
     Name: C Wings of Protector Lower
     Type: Armor
+    View: 2021
     Locations:
       Costume_Head_Low: true
     EquipLevelMin: 1
-    View: 990
   - Id: 31265
     AegisName: C_Straight_Pony_Blue_Mid
     Name: C Straight Pony Blue Mid
@@ -117142,10 +117145,10 @@ Body:
     AegisName: C_C_FlutterButterfly_BL
     Name: C Black Fluttering Butterfly
     Type: Armor
+    View: 2029
     Locations:
       Costume_Head_Low: true
     EquipLevelMin: 1
-    View: 1665
     Script: |
       hateffect(HAT_EF_C_FLUTTERBUTTERFLY_BL,true);
     UnEquipScript: |
@@ -118786,10 +118789,10 @@ Body:
     AegisName: C_Will_O_Wisp_Lower
     Name: C Will O Wisp Lower
     Type: Armor
+    View: 1928
     Locations:
       Costume_Head_Low: true
     EquipLevelMin: 1
-    View: 880
     EquipScript: |
       sc_start SC_STRANGELIGHTS,INFINITE_TICK,0;
     UnEquipScript: |
@@ -119478,10 +119481,10 @@ Body:
     AegisName: Costume_Bird_Nest
     Name: C Bird Nest
     Type: Armor
+    View: 503
     Locations:
       Costume_Head_Top: true
     EquipLevelMin: 1
-    View: 201
   - Id: 31698
     AegisName: C_Pigtail_Red_Hood
     Name: C Red Riding Hood
@@ -119569,10 +119572,10 @@ Body:
     AegisName: Costume_Lucky_Hat
     Name: C Lucky Hat
     Type: Armor
+    View: 740
     Locations:
       Costume_Head_Top: true
     EquipLevelMin: 1
-    View: 31710
   - Id: 31711
     AegisName: Costume_Jewel_Crown
     Name: C Jewel Crown
@@ -119882,6 +119885,7 @@ Body:
     AegisName: Costume_Turkey_Hat
     Name: C Turkey Hat
     Type: Armor
+    View: 1932
     Locations:
       Costume_Head_Top: true
     EquipLevelMin: 1
@@ -120318,7 +120322,7 @@ Body:
     AegisName: aegis_31887
     Name: Costume Pure Scarf
     Type: Armor
-    View: 1981
+    View: 2030
     Locations:
       Costume_Head_Low: true
   - Id: 31905
@@ -120430,7 +120434,7 @@ Body:
     AegisName: aegis_31938
     Name: Costume Loose Knitting Twin
     Type: Armor
-    View: 2007
+    View: 2031
     Locations:
       Costume_Head_Low: true
   - Id: 31943
@@ -121994,7 +121998,7 @@ Body:
     AegisName: Morrigane's_Helm_IL
     Name: Illusion Morrigane's Helm
     Type: Armor
-    View: 257
+    View: 1828
     Weight: 500
     Defense: 15
     Slots: 1
@@ -122010,10 +122014,10 @@ Body:
       bonus bCritical,5;
       bonus bStr,5;
       if (.@r>=7) {
-         bonus bBaseAtk,50;
+        bonus bBaseAtk,50;
       }
       if (.@r>=9) {
-         bonus bAspdRate,10;
+        bonus bAspdRate,10;
       }
   - Id: 400054
     AegisName: Large_Sorcerer_Crown
