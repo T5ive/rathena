@@ -22,7 +22,6 @@ struct status_change;
 
 /**
  * Max Refine available to your server
- * Changing this limit requires edits to refine_db.txt
  **/
 #ifdef RENEWAL
 #	define MAX_REFINE 20
@@ -83,6 +82,7 @@ struct s_refine_info{
 class RefineDatabase : public TypesafeYamlDatabase<uint16, s_refine_info>{
 private:
 	bool calculate_refine_info( const struct item_data& data, e_refine_type& refine_type, uint16& level );
+	std::shared_ptr<s_refine_level_info> findLevelInfoSub( const struct item_data& data, struct item& item, uint16 refine );
 
 public:
 	RefineDatabase() : TypesafeYamlDatabase( "REFINE_DB", 1 ){
@@ -94,6 +94,7 @@ public:
 
 	// Additional
 	std::shared_ptr<s_refine_level_info> findLevelInfo( const struct item_data& data, struct item& item );
+	std::shared_ptr<s_refine_level_info> findCurrentLevelInfo( const struct item_data& data, struct item& item );
 };
 
 extern RefineDatabase refine_db;
@@ -520,9 +521,9 @@ enum sc_type : int16 {
 	 **/
 	SC_REFLECTDAMAGE,
 	SC_FORCEOFVANGUARD,
-	SC_SHIELDSPELL_DEF,
-	SC_SHIELDSPELL_MDEF,
-	SC_SHIELDSPELL_REF,//380
+	SC_SHIELDSPELL_HP,
+	SC_SHIELDSPELL_SP,
+	SC_SHIELDSPELL_ATK,//380
 	SC_EXEEDBREAK,
 	SC_PRESTIGE,
 	SC_BANDING,
@@ -974,6 +975,13 @@ enum sc_type : int16 {
 	SC_EP16_2_BUFF_SS,
 	SC_EP16_2_BUFF_SC,
 	SC_EP16_2_BUFF_AC,
+	
+	// Job Improvement Bundle
+	SC_OVERBRANDREADY,
+	SC_POISON_MIST,
+	SC_STONE_WALL,
+	SC_CLOUD_POISON,
+	SC_HOMUN_TIME,
 
 	SC_EMERGENCY_MOVE,
 	SC_MADOGEAR,
@@ -2664,7 +2672,6 @@ struct status_change {
 #ifndef RENEWAL
 	unsigned char sg_counter; //Storm gust counter (previous hits from storm gust)
 #endif
-	unsigned char bs_counter; // Blood Sucker counter
 	struct status_change_entry *data[SC_MAX];
 };
 
@@ -2840,7 +2847,7 @@ unsigned short status_base_matk_max(struct block_list *bl, const struct status_d
 unsigned short status_base_atk(const struct block_list *bl, const struct status_data *status, int level);
 
 void initChangeTables(void);
-int status_readdb(void);
+int status_readdb( bool reload = false );
 int do_init_status(void);
 void do_final_status(void);
 

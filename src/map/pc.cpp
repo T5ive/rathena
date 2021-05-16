@@ -1685,6 +1685,7 @@ bool pc_authok(struct map_session_data *sd, uint32 login_id2, time_t expiration_
 	sd->count_rewarp = 0;
 	sd->mail.pending_weight = 0;
 	sd->mail.pending_zeny = 0;
+	sd->mail.pending_slots = 0;
 
 	sd->regs.vars = i64db_alloc(DB_OPT_BASE);
 	sd->regs.arrays = NULL;
@@ -6047,6 +6048,7 @@ enum e_setpos pc_setpos(struct map_session_data* sd, unsigned short mapindex, in
 	sd->state.warping = 1;
 	sd->state.workinprogress = WIP_DISABLE_NONE;
 	sd->state.mail_writing = false;
+	sd->state.refineui_open = false;
 
 	if( sd->state.changemap ) { // Misc map-changing settings
 		int curr_map_instance_id = map_getmapdata(sd->bl.m)->instance_id, new_map_instance_id = (mapdata ? mapdata->instance_id : 0);
@@ -9226,8 +9228,12 @@ int pc_itemheal(struct map_session_data *sd, t_itemid itemid, int hp, int sp)
 		if (sd->sc.data[SC_INCHEALRATE])
 			bonus += bonus * sd->sc.data[SC_INCHEALRATE]->val1 / 100;
 		// 2014 Halloween Event : Pumpkin Bonus
-		if (sd->sc.data[SC_MTF_PUMPKIN] && itemid == ITEMID_PUMPKIN)
-			bonus += bonus * sd->sc.data[SC_MTF_PUMPKIN]->val1 / 100;
+		if (sd->sc.data[SC_MTF_PUMPKIN]) {
+			if (itemid == ITEMID_PUMPKIN)
+				bonus += bonus * sd->sc.data[SC_MTF_PUMPKIN]->val1 / 100;
+			else if (itemid == ITEMID_COOKIE_BAT)
+				bonus += sd->sc.data[SC_MTF_PUMPKIN]->val2;
+		}
 
 		tmp = hp * bonus / 100; // Overflow check
 		if (bonus != 100 && tmp > hp)
